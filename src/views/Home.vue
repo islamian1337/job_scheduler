@@ -11,9 +11,9 @@
     </div>
     <div id="schedule-table">
       <table class="table table-bordered">
-    <thead>
+    <thead >
         <tr>
-            <th>
+            <th scope="col">
                <button type="button" class="btn btn-light border-primary rounded-pill text-primary dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
               View By Users
             </button>
@@ -24,7 +24,7 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>  
             </th>
-            <th>
+            <th scope="col">
               <p>Mon 1/24</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -47,7 +47,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Tue 1/27</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -70,7 +70,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Wed 1/24</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -93,7 +93,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Thu 1/24</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -116,7 +116,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Fri 1/24</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -139,7 +139,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Sat 1/21</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -162,7 +162,7 @@
                 0
               </div>
             </th>
-            <th>
+            <th scope="col">
                <p>Sun 1/20</p>
                 <div id="th">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
@@ -300,6 +300,9 @@ export default class Home extends Vue {
 </script>
 
 <style>
+  table {
+   margin-top: 10px;
+}
   #header {
     margin-bottom: 20px;
   }

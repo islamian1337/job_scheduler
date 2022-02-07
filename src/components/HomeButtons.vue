@@ -1,7 +1,7 @@
 <template>
   <div id="home-buttons">
   <div class="container-fluid bg-light">
-      <div class="col d-flex m-0 align-items-center">
+      <div class="col d-grid m-0 align-items-center">
         <div id="col1" class="d-flex m-0 align-items-center">
               <div class="nav-link active text-primary border-primary rounded-pill" aria-current="page" href="#">
                 <input type="text" width="5px" class="search form-control border-primary rounded-pill" placeholder="search">
